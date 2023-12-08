@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: ZhuZiAYuanJWD;
+  cursor: url(../resource/x1.cur), auto;
+}
+
+@font-face {
+  font-family: ZhuZiAYuanJWD;
+  src: url(https://cdn.cbd.int/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
+.main-loading {
+  display: block;
+  border: 2px solid #00c2ff;
+  border-top-color: transparent;
+}
+#main-loading-div {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-loading-text {
+  color: #00c2ff;
+  margin-left: 15px;
+}
+.lyric-p{
+    height: 25px;
+    margin: 0px;
+}
+audio {
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%, 0);
+  width: calc(100vw - 30px);
+}
+
+#lyric-div {
+  width: 100%;
+  height: calc(100vh - 100px);
+  overflow-y: hidden;
+  text-align: center;
+  line-height: 11px;
+}
+#lyric {
+  position: relative;
+}
+.highlight {
+  color: red;
+}

@@ -1,0 +1,123 @@
+@font-face {
+  font-family: ZhuZiAYuanJWD;
+  src: url(https://cdn.cbd.int/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
+body {
+  margin: 0;
+}
+.icon-search {
+  float: right;
+  position: relative;
+  top: -59px;
+  color: #1de9ff;
+  margin-right: -60px;
+  cursor: url(./resource/x2.cur), auto;
+  right: 68px;
+  margin-top: 63px;
+}
+.icon-search:before {
+  font-size: 22px;
+}
+* {
+  box-sizing: border-box;
+  font-family: ZhuZiAYuanJWD;
+  cursor: url(./resource/x1.cur), auto;
+}
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: -15%;
+}
+.colorful {
+  background: linear-gradient(to right, #1de9ff, #4aff23);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#SearchBox {
+  height: 30px;
+  width: 50vw;
+  max-width: 720px;
+  border-radius: 1000px;
+  font-size: 17px;
+  padding-left: 6px;
+  border: 2px solid #00c7ff;
+  color: rgb(0, 252, 168);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#SearchBtn {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  float: right;
+  top: -64px;
+  right: 10px;
+}
+#SearchDiv {
+  width: 100%;
+}
+#SearchBox:focus {
+  border: 0;
+  outline: 3px solid #ff7fc1;
+  box-shadow: 1px 1px 10px 1px #ff7fc1;
+}
+.icon-search:hover {
+  color: #ff7fc1;
+}
+
+@media screen and (orientation: portrait) {
+  .icon-search {
+    float: right;
+    position: relative;
+    top: -61px;
+    right: 11px;
+    color: #1de9ff;
+    margin: 0;
+  }
+  #SearchBox {
+    height: 70px;
+    width: 100%;
+    top: 0;
+    max-width: unset;
+    border-radius: 20px;
+    font-size: 36px;
+    padding-left: 12px;
+  }
+  .main {
+    margin: 20px;
+    width: 100vw;
+    top: -20px;
+  }
+  body {
+    align-items: flex-start;
+  }
+  .icon-search:before {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,40 @@
+a {
+  color: #00c2ff;
+  text-decoration: none;
+  cursor: url(../resource/x2.cur), auto;
+}
+
+li {
+  color: #00c2ff;
+  margin-top: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: ZhuZiAYuanJWD;
+  cursor: url(../resource/x1.cur), auto;
+}
+
+@font-face {
+  font-family: ZhuZiAYuanJWD;
+  src: url(https://cdn.cbd.int/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  font-display: swap;
+  font-weight: lighter;
+}
+
+.main-loading {
+  display: block;
+  border: 2px solid #00c2ff;
+  border-top-color: transparent;
+}
+#main-loading-div {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-loading-text{
+  color: #00c2ff;
+  margin-left: 15px;
+}
