@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>重定向</title>
+  </head>
+
+  <body>
+    <p id="msg"></p>
+    <script>
+      function Redirect() {
+        var el = document.getElementById("msg");
+        var url = "";
+        switch (window.location.hostname) {
+          case "daiyu-233.top":
+            url = "daiyu.fun";
+          case "ymcl.daiyu-233.top":
+            url = "ymcl.daiyu.fun";
+          default:
+            el.innerHTML = "Error";
+            return;
+        }
+        el.innerHTML = `${window.location.hostname} 现已移动到：<a href="${url}">${url}</a>`;
+      }
+      Redirect();
+    </script>
+  </body>
+</html>
