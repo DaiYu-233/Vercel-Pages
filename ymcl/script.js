@@ -55,6 +55,10 @@ const wg = document.getElementById("git");
 wg.onclick = function () {
   window.open("https://github.com/DaiYu-233/YMCL");
 };
+const csh = document.getElementById("csh");
+csh.onclick = function () {
+  window.open("https://support.qq.com/products/542108/blog/927530");
+};
 window.onscroll = function () {
   var scrollTop = document.documentElement.scrollTop;
   if (scrollTop < 4648) {

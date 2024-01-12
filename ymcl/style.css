@@ -144,6 +144,10 @@ header .logo {
   font-style: normal !important;
   font-weight: inherit !important;
   bottom: 30px;
+  user-select: none;
+}
+img{
+  user-select: none;
 }
 #clock {
   position: absolute;
