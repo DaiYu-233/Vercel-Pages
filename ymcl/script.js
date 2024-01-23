@@ -59,6 +59,10 @@ const csh = document.getElementById("csh");
 csh.onclick = function () {
   window.open("https://support.qq.com/products/542108/blog/927530");
 };
+const yx = document.getElementById("yx");
+yx.onclick = function () {
+  window.open("https://txc.qq.com/products/542108/blog/1027959");
+};
 window.onscroll = function () {
   var scrollTop = document.documentElement.scrollTop;
   if (scrollTop < 4648) {
