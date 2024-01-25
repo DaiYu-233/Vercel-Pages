@@ -34,10 +34,10 @@ updateTime()
 // 每秒钟更新一次时间
 setInterval(updateTime, 1000);
 
-// const DownloadBtn = document.getElementById("DownloadBtn");
-// DownloadBtn.onclick = function () {
-//   window.open("./YMCL.exe");
-// };
+const DownloadBtn = document.getElementById("DownloadBtn");
+DownloadBtn.onclick = function () {
+  window.open("https://github.com/DaiYu-233/YMCL/releases");
+};
 
 const w = document.getElementById("fk");
 w.onclick = function () {
