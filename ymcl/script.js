@@ -36,7 +36,7 @@ setInterval(updateTime, 1000);
 
 const DownloadBtn = document.getElementById("DownloadBtn");
 DownloadBtn.onclick = function () {
-  window.open("https://github.com/DaiYu-233/YMCL/releases");
+  window.open("https://kkgithub.com/DaiYu-233/YMCL/releases");
 };
 
 const w = document.getElementById("fk");
