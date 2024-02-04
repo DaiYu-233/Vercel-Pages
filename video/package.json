@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@vercel/node": "^3.0.11",
-    "node-media-server": "^2.6.2"
-  },
-  "scripts": {
-    "build": "node app.js"
-  }
-}
